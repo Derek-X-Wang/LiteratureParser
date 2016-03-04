@@ -1,0 +1,195 @@
+/*
+ * Component: Sidebar Mini
+ */
+
+.sidebar-mini.sidebar-collapse .main-sidebar .nav-tabs li,
+.sidebar-mini.sidebar-collapse .main-sidebar .tab-content {
+    display: none;
+    -webkit-transform: translateZ(0);
+}
+.sidebar-mini.sidebar-collapse .main-sidebar .nav-tabs .active {
+    display: block;
+}
+
+/*
+ * Component Mod: Main Sidebar Tab
+ * ----------------------
+ */
+.nav-tabs.main-sidebar-tabs > li:first-of-type > a,
+.nav-tabs.main-sidebar-tabs > li:first-of-type > a:hover,
+.nav-tabs.main-sidebar-tabs > li:first-of-type > a:focus {
+    border-left-width: 0;
+}
+.nav-tabs.main-sidebar-tabs > li > a {
+    border-radius: 0;
+}
+.nav-tabs.main-sidebar-tabs > li > a,
+.nav-tabs.main-sidebar-tabs > li > a:hover {
+    border-top: none;
+    border-right: none;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.nav-tabs.main-sidebar-tabs > li > a .icon {
+    font-size: 16px;
+}
+.nav-tabs.main-sidebar-tabs > li.active > a,
+.nav-tabs.main-sidebar-tabs > li.active > a:hover,
+.nav-tabs.main-sidebar-tabs > li.active > a:focus,
+.nav-tabs.main-sidebar-tabs > li.active > a:active {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+@media (max-width: 768px) {
+    .nav-tabs.main-sidebar-tabs {
+        display: table;
+    }
+    .nav-tabs.main-sidebar-tabs > li {
+        display: table-cell;
+    }
+}
+.main-sidebar-heading {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.main-sidebar-subheading {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+}
+.main-sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 -15px;
+}
+.main-sidebar-menu > li > a {
+    display: block;
+    padding: 10px 15px;
+}
+.main-sidebar-menu > li > a:before,
+.main-sidebar-menu > li > a:after {
+    content: " ";
+    display: table;
+}
+.main-sidebar-menu > li > a:after {
+    clear: both;
+}
+.main-sidebar-menu > li > a > .main-sidebar-subheading {
+    margin-top: 0;
+}
+.main-sidebar-menu .menu-icon {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+}
+.main-sidebar-menu .menu-info {
+    margin-left: 45px;
+    margin-top: 3px;
+}
+.main-sidebar-menu .menu-info > .main-sidebar-subheading {
+    margin: 0;
+}
+.main-sidebar-menu .menu-info > p {
+    margin: 0;
+    font-size: 11px;
+}
+.main-sidebar-menu .progress {
+    margin: 0;
+}
+.main-sidebar-dark {
+    color: #b8c7ce;
+}
+.main-sidebar-dark,
+.main-sidebar-dark + .main-sidebar-bg {
+    background: #222d32;
+}
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs {
+    border-bottom: #1c2529;
+}
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a {
+    background: #181f23;
+    color: #b8c7ce;
+}
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a,
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a:hover,
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a:focus {
+    border-left-color: #141a1d;
+    border-bottom-color: #141a1d;
+}
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a:hover,
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a:focus,
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a:active {
+    background: #1c2529;
+}
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li > a:hover {
+    color: #fff;
+}
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li.active > a,
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li.active > a:hover,
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li.active > a:focus,
+.main-sidebar-dark .nav-tabs.main-sidebar-tabs > li.active > a:active {
+    background: #222d32;
+    color: #fff;
+}
+.main-sidebar-dark .main-sidebar-heading,
+.main-sidebar-dark .main-sidebar-subheading {
+    color: #fff;
+}
+.main-sidebar-dark .main-sidebar-menu > li > a:hover {
+    background: #1e282c;
+}
+.main-sidebar-dark .main-sidebar-menu > li > a .menu-info > p {
+    color: #b8c7ce;
+}
+.main-sidebar-light {
+    color: #5e5e5e;
+}
+.main-sidebar-light,
+.main-sidebar-light + .main-sidebar-bg {
+    background: #f9fafc;
+    border-left: 1px solid #d2d6de;
+}
+.main-sidebar-light .nav-tabs.main-sidebar-tabs {
+    border-bottom: #d2d6de;
+}
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li > a {
+    background: #e8ecf4;
+    color: #444444;
+}
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li > a,
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li > a:hover,
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li > a:focus {
+    border-left-color: #d2d6de;
+    border-bottom-color: #d2d6de;
+}
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li > a:hover,
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li > a:focus,
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li > a:active {
+    background: #eff1f7;
+}
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li.active > a,
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li.active > a:hover,
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li.active > a:focus,
+.main-sidebar-light .nav-tabs.main-sidebar-tabs > li.active > a:active {
+    background: #f9fafc;
+    color: #111;
+}
+.main-sidebar-light .main-sidebar-heading,
+.main-sidebar-light .main-sidebar-subheading {
+    color: #111;
+}
+.main-sidebar-light .main-sidebar-menu {
+    margin-left: -14px;
+}
+.main-sidebar-light .main-sidebar-menu > li > a:hover {
+    background: #f4f4f5;
+}
+.main-sidebar-light .main-sidebar-menu > li > a .menu-info > p {
+    color: #5e5e5e;
+}
